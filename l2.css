@@ -1,0 +1,16 @@
+div.blockA {
+    background-color: #ee442d;
+    padding: 20px;
+    border: solid 1px white;
+
+}
+p.isideblock{
+    color: white;
+}
+
+div.blockB{
+    background-color: rgb(222, 237, 6);
+    padding: 50px;
+    margin-top: 20px;
+    border: dashed 5px rgb(241, 3, 3);
+}

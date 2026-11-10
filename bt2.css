@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2 - Box Model</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f0f0f0;
+        }
+
+        .box {
+            width: 300px;
+            height: 150px;
+            background-color: lightblue;
+            border: 3px solid blue;
+            padding: 20px;
+            margin: 50px auto;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>CSS BOX MODEL</h2>
+        <p>Đây là ví dụ về mô hình hộp trong CSS.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+:root{
+--colour-primary: #BEDEFF;
+--colour-secondary:#FFF2A7;
+--colour-third:#FFA500;
+--colour-fourth:#930031;
+--color-success: #067615;
+
+}
+
+.header-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    background-color: var(--colour-primary);
+}
+
+
+
+.item{
+    backgroud: var(--colour-primary);
+    padding: 10px;
+    color: black;
+    display: grid;
+    place-items: center;
+}
+
+.search-container{
+    backgound: var(--colour-primary);
+    padding: 10px;
+    color: white;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr auto;
+}
+
+.search-input{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 30pt;
+    border: 1px solid var(--colour-third);
+    border-radius: 10px 0px 0px 10px;
+    /*Trên-trái Trên-phải Dưới-phải Dưới-trái*/
+}
+
+.search-button{
+    background-color: var(--colour-secondary);
+    min-width: 100px;
+    min-height: 50px;
+    font-size: 30pt;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.cart-button{
+    background-color: var(--colour-third);
+    min-width: 100px;
+    min-height: 50px;
+    font-size: 15pt;
+    border: none;
+    color: white;
+}
+
+
+.taikhoan-button{
+    background-color: var(--colour-primary);
+    min-width: 100px;
+    min-height: 50px;
+    font-size: 15pt;
+    border: none;
+    color: var(--colour-primary)
+    
+}
+
+.cart-account-container{
+    background-color: var(--colour-primary);
+    padding: 10px;
+    color: white;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr auto;
+    padding-right: 30px;
+}
+
+.all-product-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.item-product-container{
+
+}
+
+.product-img{
+    max-height:250px;
+    max-width:250px;
+    min-height: 250px;
+    min-width: 250px;
+}
+
+.product-title{
+    font-size: 24pt;
+    color: var(--colour-primary);
+    
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
